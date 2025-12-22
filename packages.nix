@@ -6,5 +6,6 @@ let
     git
     zellij
     neovim
+    eza
   ];
 in nixTools
