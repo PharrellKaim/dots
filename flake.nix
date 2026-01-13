@@ -14,7 +14,7 @@
       # Values you should modify
       username = "Pharrell.Kaim"; # $USER
       system = "aarch64-darwin";  # x86_64-linux, aarch64-multiplatform, etc.
-      stateVersion = "22.11";     # See https://nixos.org/manual/nixpkgs/stable for most recent
+      stateVersion = "25.11";     # See https://nixos.org/manual/nixpkgs/stable for most recent
 
       pkgs = import nixpkgs {
         inherit system;

@@ -6,5 +6,9 @@ let
     git
     zellij
     neovim
+    eza
+    cowsay
+    zoxide
+    ripgrep
   ];
 in nixTools
