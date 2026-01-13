@@ -24,9 +24,9 @@
       export FUNCNEST=1000
     '';    
   };
-
-  starship = import ./starship.nix;
   
+  starship = import ./starship.nix;
+
   eza = {
     enable = true;
     enableZshIntegration = true;
@@ -35,7 +35,20 @@
     git = true; 
   };
 
-  zellij = {
+    #Zellij
+  zellij =  {
     enable = true; 
+    enableZshIntegration = true;
+  };
+
+  zoxide =  {
+    enable = true; 
+    enableZshIntegration = true;
+  };
+
+
+  fzf =  {
+    enable = true; 
+    enableZshIntegration = true;
   };
 }

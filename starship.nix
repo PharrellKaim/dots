@@ -356,7 +356,8 @@
           deleted = "🗑";
           disabled = false;
           diverged = "😵";
-          format = "([[$all_status$ahead_behind]]($style) )";
+# TODO: Finde heraus was es für schöne Dinge gibt
+          #format = "([[$all_status$ahead_behind]]($style) )";
           ignore_submodules = false;
           modified = "📝";
           renamed = "👅";

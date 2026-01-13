@@ -7,5 +7,8 @@ let
     zellij
     neovim
     eza
+    cowsay
+    zoxide
+    ripgrep
   ];
 in nixTools
