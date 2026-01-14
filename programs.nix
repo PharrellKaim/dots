@@ -11,7 +11,11 @@
       k = "kubectl";
       g = "git";
       gs = "git status";
-
+      ga = "git add";
+      gd = "git diff";
+      
+      #zoxide als cd ersatz
+      cd = "zi";
       # eza als ls-Ersatz
       ls = "eza --group-directories-first";
       ll = "eza -lh --group-directories-first";
