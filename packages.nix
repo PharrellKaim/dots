@@ -10,5 +10,6 @@ let
     cowsay
     zoxide
     ripgrep
+    k9s
   ];
 in nixTools

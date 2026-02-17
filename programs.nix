@@ -15,7 +15,7 @@
       gd = "git diff";
       
       #zoxide als cd ersatz
-      cd = "zi";
+      cd = "z";
       # eza als ls-Ersatz
       ls = "eza --group-directories-first";
       ll = "eza -lh --group-directories-first";
